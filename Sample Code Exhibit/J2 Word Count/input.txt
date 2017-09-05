@@ -1,0 +1,702 @@
+James Rohan Ganvarapu
+step1:input the string.
+
+step2:split the string into single word store in a arrays.
+
+step3 :return the length of the arrays.
+
+two years.
+ 
+
+/*James Rohan Gangavarapu
+* wordcount.java
+* Objective: Finding the number of words, sentences,
+*            lines, alphanumeric characters and vowels
+*            in the input.txt file.
+ *Algorithm: A while statement that checks for next line input,
+ *           converts each line to string and checks for objectives
+ *           throughout that line.
+ *           Objectives are searched by looking for special characters,
+ *           eg: "?","!" etc.
+ *Data Structure: None used.
+ *Input/Output: The program accepts an input file named "input.txt"
+ *              and outputs the results onto the scanner console as well
+ *              as an output file named "output.txt"*/
+
+
+/*String y[] = check.split(" ");
+                int yword = y.length;
+                System.out.println("Word #now:" + yword);
+                yword += yword;
+                System.out.println(yword);*/
+
+
+Department of Computer Science.
+
+Georgia State University
+
+                                                                              CSc 3410                                                                                                                                                                                                                     J. L. Bhola
+
+Spring 2016 - Assignment #2
+
+Due February 3rd (MW class) and February 4th (TR class), 2016
+
+Note:
+For all assignments, always use comments to explain your program.
+No copying allowed. If it is found that students copy from each other (in the opinion of the instructor), all  of these programs will get 0.
+You must use the names given to name your program. Should you use different names, you would lose 10% of what each program is worth.
+ 
+
+Objectives:
+
+
+1.     To gain experience with string objects.
+
+2.     To gain experience with generic algorithms.
+
+3.     To gain experience with files - opening for input and output.
+
+Documentation:
+Explain the purpose of the program as detail as possible - 10%.
+Develop a solution for the problem and mention algorithms to be used -10%
+List data structures to be used in solution. - 5%.
+Give a description of how to use the program and expected input/output - 5%
+Explain the purpose of each class you develop in the program. - 5%.
+Programming:
+
+For each method, give the pre and post conditions and invariant, if any - 10%
+Program execution according to the requirements given 45%
+Naming of program as required 5%
+Print out of source code 5%
+Description of program:
+
+You are to write a program name wordcount.java that prompt the user for a user input file name, reads the input words and do the following with those words:
+
+Count the amount of words in the file. A word can end with any of the following: space (single or multiple), an EOLN character or a punctuation mark (which will be part of the word).
+Count the amount of lines in the file.
+Count the amount of alphanumeric characters in the file.
+Count the number of sentences in the file.
+Count the amount of vowels in the file - only a, e, i, o, u (lower and upper case) are vowels.
+Count the amount of punctuations in the file.
+You must output the above information both on the screen as well as an output file name "output.txt".
+Here are some requirements for the program:
+
+The program must work even if the input file is empty. If this is the case print a message saying that “the input file is empty” and then terminate the program.
+
+
+Implementation:
+Use as many generic algorithm as possible sothat the size of the program can be reduced.
+
+
+What to turn in:
+
+
+1.  The .java and the .class/jar files at the D2L website in the Dropbox folder for A2 no later than 10:00 p.m on the respective due date.
+
+2.     A print out of each of the  .java file (source code) to be given to the TA on the first meeting after the assignment is due.
+
+3.     Make sure that your name is written clearly both on the print out and of course your program.
+
+Department of Computer Science.
+
+Georgia State University
+
+                                                                              CSc 3410                                                                                                                                                                                                                     J. L. Bhola
+
+Spring 2016 - Assignment #2
+
+Due February 3rd (MW class) and February 4th (TR class), 2016
+
+Note:
+For all assignments, always use comments to explain your program.
+No copying allowed. If it is found that students copy from each other (in the opinion of the instructor), all  of these programs will get 0.
+You must use the names given to name your program. Should you use different names, you would lose 10% of what each program is worth.
+ 
+
+Objectives:
+
+
+1.     To gain experience with string objects.
+
+2.     To gain experience with generic algorithms.
+
+3.     To gain experience with files - opening for input and output.
+
+Documentation:
+Explain the purpose of the program as detail as possible - 10%.
+Develop a solution for the problem and mention algorithms to be used -10%
+List data structures to be used in solution. - 5%.
+Give a description of how to use the program and expected input/output - 5%
+Explain the purpose of each class you develop in the program. - 5%.
+Programming:
+
+For each method, give the pre and post conditions and invariant, if any - 10%
+Program execution according to the requirements given 45%
+Naming of program as required 5%
+Print out of source code 5%
+Description of program:
+
+You are to write a program name wordcount.java that prompt the user for a user input file name, reads the input words and do the following with those words:
+
+Count the amount of words in the file. A word can end with any of the following: space (single or multiple), an EOLN character or a punctuation mark (which will be part of the word).
+Count the amount of lines in the file.
+Count the amount of alphanumeric characters in the file.
+Count the number of sentences in the file.
+Count the amount of vowels in the file - only a, e, i, o, u (lower and upper case) are vowels.
+Count the amount of punctuations in the file.
+You must output the above information both on the screen as well as an output file name "output.txt".
+Here are some requirements for the program:
+
+The program must work even if the input file is empty. If this is the case print a message saying that “the input file is empty” and then terminate the program.
+
+
+Implementation:
+Use as many generic algorithm as possible sothat the size of the program can be reduced.
+
+
+What to turn in:
+
+
+1.  The .java and the .class/jar files at the D2L website in the Dropbox folder for A2 no later than 10:00 p.m on the respective due date.
+
+2.     A print out of each of the  .java file (source code) to be given to the TA on the first meeting after the assignment is due.
+
+3.     Make sure that your name is written clearly both on the print out and of course your program.
+
+Department of Computer Science.
+
+Georgia State University
+
+                                                                              CSc 3410                                                                                                                                                                                                                     J. L. Bhola
+
+Spring 2016 - Assignment #2
+
+Due February 3rd (MW class) and February 4th (TR class), 2016
+
+Note:
+For all assignments, always use comments to explain your program.
+No copying allowed. If it is found that students copy from each other (in the opinion of the instructor), all  of these programs will get 0.
+You must use the names given to name your program. Should you use different names, you would lose 10% of what each program is worth.
+ 
+
+Objectives:
+
+
+1.     To gain experience with string objects.
+
+2.     To gain experience with generic algorithms.
+
+3.     To gain experience with files - opening for input and output.
+
+Documentation:
+Explain the purpose of the program as detail as possible - 10%.
+Develop a solution for the problem and mention algorithms to be used -10%
+List data structures to be used in solution. - 5%.
+Give a description of how to use the program and expected input/output - 5%
+Explain the purpose of each class you develop in the program. - 5%.
+Programming:
+
+For each method, give the pre and post conditions and invariant, if any - 10%
+Program execution according to the requirements given 45%
+Naming of program as required 5%
+Print out of source code 5%
+Description of program:
+
+You are to write a program name wordcount.java that prompt the user for a user input file name, reads the input words and do the following with those words:
+
+Count the amount of words in the file. A word can end with any of the following: space (single or multiple), an EOLN character or a punctuation mark (which will be part of the word).
+Count the amount of lines in the file.
+Count the amount of alphanumeric characters in the file.
+Count the number of sentences in the file.
+Count the amount of vowels in the file - only a, e, i, o, u (lower and upper case) are vowels.
+Count the amount of punctuations in the file.
+You must output the above information both on the screen as well as an output file name "output.txt".
+Here are some requirements for the program:
+
+The program must work even if the input file is empty. If this is the case print a message saying that “the input file is empty” and then terminate the program.
+
+
+Implementation:
+Use as many generic algorithm as possible sothat the size of the program can be reduced.
+
+
+What to turn in:
+
+
+1.  The .java and the .class/jar files at the D2L website in the Dropbox folder for A2 no later than 10:00 p.m on the respective due date.
+
+2.     A print out of each of the  .java file (source code) to be given to the TA on the first meeting after the assignment is due.
+
+3.     Make sure that your name is written clearly both on the print out and of course your program.
+
+Department of Computer Science.
+
+Georgia State University
+
+                                                                              CSc 3410                                                                                                                                                                                                                     J. L. Bhola
+
+Spring 2016 - Assignment #2
+
+Due February 3rd (MW class) and February 4th (TR class), 2016
+
+Note:
+For all assignments, always use comments to explain your program.
+No copying allowed. If it is found that students copy from each other (in the opinion of the instructor), all  of these programs will get 0.
+You must use the names given to name your program. Should you use different names, you would lose 10% of what each program is worth.
+ 
+
+Objectives:
+
+
+1.     To gain experience with string objects.
+
+2.     To gain experience with generic algorithms.
+
+3.     To gain experience with files - opening for input and output.
+
+Documentation:
+Explain the purpose of the program as detail as possible - 10%.
+Develop a solution for the problem and mention algorithms to be used -10%
+List data structures to be used in solution. - 5%.
+Give a description of how to use the program and expected input/output - 5%
+Explain the purpose of each class you develop in the program. - 5%.
+Programming:
+
+For each method, give the pre and post conditions and invariant, if any - 10%
+Program execution according to the requirements given 45%
+Naming of program as required 5%
+Print out of source code 5%
+Description of program:
+
+You are to write a program name wordcount.java that prompt the user for a user input file name, reads the input words and do the following with those words:
+
+Count the amount of words in the file. A word can end with any of the following: space (single or multiple), an EOLN character or a punctuation mark (which will be part of the word).
+Count the amount of lines in the file.
+Count the amount of alphanumeric characters in the file.
+Count the number of sentences in the file.
+Count the amount of vowels in the file - only a, e, i, o, u (lower and upper case) are vowels.
+Count the amount of punctuations in the file.
+You must output the above information both on the screen as well as an output file name "output.txt".
+Here are some requirements for the program:
+
+The program must work even if the input file is empty. If this is the case print a message saying that “the input file is empty” and then terminate the program.
+
+
+Implementation:
+Use as many generic algorithm as possible sothat the size of the program can be reduced.
+
+
+What to turn in:
+
+
+1.  The .java and the .class/jar files at the D2L website in the Dropbox folder for A2 no later than 10:00 p.m on the respective due date.
+
+2.     A print out of each of the  .java file (source code) to be given to the TA on the first meeting after the assignment is due.
+
+3.     Make sure that your name is written clearly both on the print out and of course your program.
+
+Department of Computer Science.
+
+Georgia State University
+
+                                                                              CSc 3410                                                                                                                                                                                                                     J. L. Bhola
+
+Spring 2016 - Assignment #2
+
+Due February 3rd (MW class) and February 4th (TR class), 2016
+
+Note:
+For all assignments, always use comments to explain your program.
+No copying allowed. If it is found that students copy from each other (in the opinion of the instructor), all  of these programs will get 0.
+You must use the names given to name your program. Should you use different names, you would lose 10% of what each program is worth.
+ 
+
+Objectives:
+
+
+1.     To gain experience with string objects.
+
+2.     To gain experience with generic algorithms.
+
+3.     To gain experience with files - opening for input and output.
+
+Documentation:
+Explain the purpose of the program as detail as possible - 10%.
+Develop a solution for the problem and mention algorithms to be used -10%
+List data structures to be used in solution. - 5%.
+Give a description of how to use the program and expected input/output - 5%
+Explain the purpose of each class you develop in the program. - 5%.
+Programming:
+
+For each method, give the pre and post conditions and invariant, if any - 10%
+Program execution according to the requirements given 45%
+Naming of program as required 5%
+Print out of source code 5%
+Description of program:
+
+You are to write a program name wordcount.java that prompt the user for a user input file name, reads the input words and do the following with those words:
+
+Count the amount of words in the file. A word can end with any of the following: space (single or multiple), an EOLN character or a punctuation mark (which will be part of the word).
+Count the amount of lines in the file.
+Count the amount of alphanumeric characters in the file.
+Count the number of sentences in the file.
+Count the amount of vowels in the file - only a, e, i, o, u (lower and upper case) are vowels.
+Count the amount of punctuations in the file.
+You must output the above information both on the screen as well as an output file name "output.txt".
+Here are some requirements for the program:
+
+The program must work even if the input file is empty. If this is the case print a message saying that “the input file is empty” and then terminate the program.
+
+
+Implementation:
+Use as many generic algorithm as possible sothat the size of the program can be reduced.
+
+
+What to turn in:
+
+
+1.  The .java and the .class/jar files at the D2L website in the Dropbox folder for A2 no later than 10:00 p.m on the respective due date.
+
+2.     A print out of each of the  .java file (source code) to be given to the TA on the first meeting after the assignment is due.
+
+3.     Make sure that your name is written clearly both on the print out and of course your program.
+
+sdfasdf
+dsfsdfsdf
+sdfsdfdsfd
+sdfdafsd
+sdfdsds
+
+
+String check
+
+James Rohan Ganvarapu
+step1:input the string.
+
+step2:split the string into single word store in a arrays.
+
+step3 :return the length of the arrays.
+
+
+ two years.
+
+/*James Rohan Gangavarapu
+* wordcount.java
+* Objective: Finding the number of words, sentences,
+*            lines, alphanumeric characters and vowels
+*            in the input.txt file.
+ *Algorithm: A while statement that checks for next line input,
+ *           converts each line to string and checks for objectives
+ *           throughout that line.
+ *           Objectives are searched by looking for special characters,
+ *           eg: "?","!" etc.
+ *Data Structure: None used.
+ *Input/Output: The program accepts an input file named "input.txt"
+ *              and outputs the results onto the scanner console as well
+ *              as an output file named "output.txt"*/
+
+
+/*String y[] = check.split(" ");
+                int yword = y.length;
+                System.out.println("Word #now:" + yword);
+                yword += yword;
+                System.out.println(yword);*/
+
+
+Department of Computer Science.
+
+Georgia State University
+
+                                                                              CSc 3410                                                                                                                                                                                                                     J. L. Bhola
+
+Spring 2016 - Assignment #2
+
+Due February 3rd (MW class) and February 4th (TR class), 2016
+
+Note:
+For all assignments, always use comments to explain your program.
+No copying allowed. If it is found that students copy from each other (in the opinion of the instructor), all  of these programs will get 0.
+You must use the names given to name your program. Should you use different names, you would lose 10% of what each program is worth.
+ 
+
+Objectives:
+
+
+1.     To gain experience with string objects.
+
+2.     To gain experience with generic algorithms.
+
+3.     To gain experience with files - opening for input and output.
+
+Documentation:
+Explain the purpose of the program as detail as possible - 10%.
+Develop a solution for the problem and mention algorithms to be used -10%
+List data structures to be used in solution. - 5%.
+Give a description of how to use the program and expected input/output - 5%
+Explain the purpose of each class you develop in the program. - 5%.
+Programming:
+
+For each method, give the pre and post conditions and invariant, if any - 10%
+Program execution according to the requirements given 45%
+Naming of program as required 5%
+Print out of source code 5%
+Description of program:
+
+You are to write a program name wordcount.java that prompt the user for a user input file name, reads the input words and do the following with those words:
+
+Count the amount of words in the file. A word can end with any of the following: space (single or multiple), an EOLN character or a punctuation mark (which will be part of the word).
+Count the amount of lines in the file.
+Count the amount of alphanumeric characters in the file.
+Count the number of sentences in the file.
+Count the amount of vowels in the file - only a, e, i, o, u (lower and upper case) are vowels.
+Count the amount of punctuations in the file.
+You must output the above information both on the screen as well as an output file name "output.txt".
+Here are some requirements for the program:
+
+The program must work even if the input file is empty. If this is the case print a message saying that “the input file is empty” and then terminate the program.
+
+
+Implementation:
+Use as many generic algorithm as possible sothat the size of the program can be reduced.
+
+
+What to turn in:
+
+
+1.  The .java and the .class/jar files at the D2L website in the Dropbox folder for A2 no later than 10:00 p.m on the respective due date.
+
+2.     A print out of each of the  .java file (source code) to be given to the TA on the first meeting after the assignment is due.
+
+3.     Make sure that your name is written clearly both on the print out and of course your program.
+
+Department of Computer Science.
+
+Georgia State University
+
+                                                                              CSc 3410                                                                                                                                                                                                                     J. L. Bhola
+
+Spring 2016 - Assignment #2
+
+Due February 3rd (MW class) and February 4th (TR class), 2016
+
+Note:
+For all assignments, always use comments to explain your program.
+No copying allowed. If it is found that students copy from each other (in the opinion of the instructor), all  of these programs will get 0.
+You must use the names given to name your program. Should you use different names, you would lose 10% of what each program is worth.
+ 
+
+Objectives:
+
+
+1.     To gain experience with string objects.
+
+2.     To gain experience with generic algorithms.
+
+3.     To gain experience with files - opening for input and output.
+
+Documentation:
+Explain the purpose of the program as detail as possible - 10%.
+Develop a solution for the problem and mention algorithms to be used -10%
+List data structures to be used in solution. - 5%.
+Give a description of how to use the program and expected input/output - 5%
+Explain the purpose of each class you develop in the program. - 5%.
+Programming:
+
+For each method, give the pre and post conditions and invariant, if any - 10%
+Program execution according to the requirements given 45%
+Naming of program as required 5%
+Print out of source code 5%
+Description of program:
+
+You are to write a program name wordcount.java that prompt the user for a user input file name, reads the input words and do the following with those words:
+
+Count the amount of words in the file. A word can end with any of the following: space (single or multiple), an EOLN character or a punctuation mark (which will be part of the word).
+Count the amount of lines in the file.
+Count the amount of alphanumeric characters in the file.
+Count the number of sentences in the file.
+Count the amount of vowels in the file - only a, e, i, o, u (lower and upper case) are vowels.
+Count the amount of punctuations in the file.
+You must output the above information both on the screen as well as an output file name "output.txt".
+Here are some requirements for the program:
+
+The program must work even if the input file is empty. If this is the case print a message saying that “the input file is empty” and then terminate the program.
+
+
+Implementation:
+Use as many generic algorithm as possible sothat the size of the program can be reduced.
+
+
+What to turn in:
+
+
+1.  The .java and the .class/jar files at the D2L website in the Dropbox folder for A2 no later than 10:00 p.m on the respective due date.
+
+2.     A print out of each of the  .java file (source code) to be given to the TA on the first meeting after the assignment is due.
+
+3.     Make sure that your name is written clearly both on the print out and of course your program.
+
+Department of Computer Science.
+
+Georgia State University
+
+                                                                              CSc 3410                                                                                                                                                                                                                     J. L. Bhola
+
+Spring 2016 - Assignment #2
+
+Due February 3rd (MW class) and February 4th (TR class), 2016
+
+Note:
+For all assignments, always use comments to explain your program.
+No copying allowed. If it is found that students copy from each other (in the opinion of the instructor), all  of these programs will get 0.
+You must use the names given to name your program. Should you use different names, you would lose 10% of what each program is worth.
+ 
+
+Objectives:
+
+
+1.     To gain experience with string objects.
+
+2.     To gain experience with generic algorithms.
+
+3.     To gain experience with files - opening for input and output.
+
+Documentation:
+Explain the purpose of the program as detail as possible - 10%.
+Develop a solution for the problem and mention algorithms to be used -10%
+List data structures to be used in solution. - 5%.
+Give a description of how to use the program and expected input/output - 5%
+Explain the purpose of each class you develop in the program. - 5%.
+Programming:
+
+For each method, give the pre and post conditions and invariant, if any - 10%
+Program execution according to the requirements given 45%
+Naming of program as required 5%
+Print out of source code 5%
+Description of program:
+
+You are to write a program name wordcount.java that prompt the user for a user input file name, reads the input words and do the following with those words:
+
+Count the amount of words in the file. A word can end with any of the following: space (single or multiple), an EOLN character or a punctuation mark (which will be part of the word).
+Count the amount of lines in the file.
+Count the amount of alphanumeric characters in the file.
+Count the number of sentences in the file.
+Count the amount of vowels in the file - only a, e, i, o, u (lower and upper case) are vowels.
+Count the amount of punctuations in the file.
+You must output the above information both on the screen as well as an output file name "output.txt".
+Here are some requirements for the program:
+
+The program must work even if the input file is empty. If this is the case print a message saying that “the input file is empty” and then terminate the program.
+
+
+Implementation:
+Use as many generic algorithm as possible sothat the size of the program can be reduced.
+
+
+What to turn in:
+
+
+1.  The .java and the .class/jar files at the D2L website in the Dropbox folder for A2 no later than 10:00 p.m on the respective due date.
+
+2.     A print out of each of the  .java file (source code) to be given to the TA on the first meeting after the assignment is due.
+
+3.     Make sure that your name is written clearly both on the print out and of course your program.
+
+Department of Computer Science.
+
+Georgia State University
+
+                                                                              CSc 3410                                                                                                                                                                                                                     J. L. Bhola
+
+Spring 2016 - Assignment #2
+
+Due February 3rd (MW class) and February 4th (TR class), 2016
+
+Note:
+For all assignments, always use comments to explain your program.
+No copying allowed. If it is found that students copy from each other (in the opinion of the instructor), all  of these programs will get 0.
+You must use the names given to name your program. Should you use different names, you would lose 10% of what each program is worth.
+ 
+
+Objectives:
+
+
+1.     To gain experience with string objects.
+
+2.     To gain experience with generic algorithms.
+
+3.     To gain experience with files - opening for input and output.
+
+Documentation:
+Explain the purpose of the program as detail as possible - 10%.
+Develop a solution for the problem and mention algorithms to be used -10%
+List data structures to be used in solution. - 5%.
+Give a description of how to use the program and expected input/output - 5%
+Explain the purpose of each class you develop in the program. - 5%.
+Programming:
+
+For each method, give the pre and post conditions and invariant, if any - 10%
+Program execution according to the requirements given 45%
+Naming of program as required 5%
+Print out of source code 5%
+Description of program:
+
+You are to write a program name wordcount.java that prompt the user for a user input file name, reads the input words and do the following with those words:
+
+Count the amount of words in the file. A word can end with any of the following: space (single or multiple), an EOLN character or a punctuation mark (which will be part of the word).
+Count the amount of lines in the file.
+Count the amount of alphanumeric characters in the file.
+Count the number of sentences in the file.
+Count the amount of vowels in the file - only a, e, i, o, u (lower and upper case) are vowels.
+Count the amount of punctuations in the file.
+You must output the above information both on the screen as well as an output file name "output.txt".
+Here are some requirements for the program:
+
+The program must work even if the input file is empty. If this is the case print a message saying that “the input file is empty” and then terminate the program.
+
+
+Implementation:
+Use as many generic algorithm as possible sothat the size of the program can be reduced.
+
+
+What to turn in:
+
+
+1.  The .java and the .class/jar files at the D2L website in the Dropbox folder for A2 no later than 10:00 p.m on the respective due date.
+
+2.     A print out of each of the  .java file (source code) to be given to the TA on the first meeting after the assignment is due.
+
+3.     Make sure that your name is written clearly both on the print out and of course your program.
+
+Department of Computer Science.
+
+Georgia State University
+
+                                                                              CSc 3410                                                                                                                                                                                                                     J. L. Bhola
+
+Spring 2016 - Assignment #2
+
+Due February 3rd (MW class) and February 4th (TR class), 2016
+
+Note:
+For all assignments, always use comments to explain your program.
+No copying allowed. If it is found that students copy from each other (in the opinion of the instructor), all  of these programs will get 0.
+You must use the names given to name your program. Should you use different names, you would lose 10% of what each program is worth.
+ 
+
+Objectives:
+
+
+1.     To gain experience with string objects.
+
+2.     To gain experience with generic algorithms.
+
+3.     To gain experience with files - opening for input and output.
+
+5%
+Explain the purpose of each class you develop in the program. - 5%.
+Programming:
+
+
+
+
+
